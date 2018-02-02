@@ -9,7 +9,7 @@ class Hunter131
 
     public static void main(String ags[])
     {
-        System.out.println("enter number");
+        System.out.println("Input");
         Scanner scan = new Scanner(System.in);
         int lim = scan.nextInt();
         int[] num = new int[lim];
@@ -30,29 +30,25 @@ class Hunter131
                 }
             }
         }
-        for (int i : num)
-        {
-            System.out.print(i + " ");
-        }
-        System.out.println();
+        System.out.println("OUTPUT");
         int total = 0;
         for (int k = 0 ; k < lim / 2 ; k++)
         {
             for (int i = 0 + total; i <= lim / 2; )
             {
-                System.out.println(num[i]);
+                System.out.print(num[i] + " ");
                 break;
             }
             for (int j = lim - total - 1; j >= lim / 2; )
             {
-                System.out.println(num[j]);
+                System.out.print(num[j] + " ");
                 break;
             }
             total++;
         }
         if(!(lim%2==0))
         {
-            System.out.println(num[((lim + 1)/2)-1]);
+            System.out.print(num[((lim + 1)/2)-1]);
         }
 
     }

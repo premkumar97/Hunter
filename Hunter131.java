@@ -1,4 +1,4 @@
-package com.skava.java.guvi;
+package com.java.guvi;
 
 import java.util.Scanner;
 import java.util.Set;

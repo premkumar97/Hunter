@@ -12,10 +12,8 @@ public class Hunter133
         String[] split = string.split(" ");
         for (int i = split.length - 1; i >= 0; i--)
         {
-            System.out.print(split[i] + " ");
             reversestring += split[i] + " ";
         }
-        System.out.println();
         System.out.println(reversestring);
 
     }
